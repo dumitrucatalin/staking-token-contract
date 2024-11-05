@@ -20,6 +20,7 @@ This project includes two smart contracts:
    - Deploy Locally: `yarn deploy:local`
 
 Dapp implementation for the smart contracts can be found at [Staking DApp Git](https://github.com/dumitrucatalin/staking-hub)
+
 Live Dapp on: [Staking DApp](https://staking-hub-xi.vercel.app/staking)
 
 Live contracts on ETH Sepolia:
