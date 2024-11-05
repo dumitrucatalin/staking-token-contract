@@ -24,7 +24,7 @@ describe("TestToken", function () {
 
   it("Should restrict non-owner from minting over MAX_MINT_AMOUNT", async function () {
     await expect(
-      testToken.connect(addr1).mint(ethers.utils.parseUnits("200", 18))
+      testToken.connect(addr1).mint(ethers.utils.parseUnits("200", 18)),
     ).to.be.revertedWith("Cannot mint more than 100 tokens at a time");
   });
 
